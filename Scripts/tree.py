@@ -23,7 +23,7 @@ def print_path(depth: int, path: str) -> tuple[int, int]:
             num_files += 1
     return num_files, num_dirs
 
-print ("coucou, comment ?")
+print ("coucou")
 def print_tree(path: str) -> None:
     if os.path.exists(path):
         print(path)
