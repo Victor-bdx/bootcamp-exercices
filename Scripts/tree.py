@@ -6,7 +6,6 @@ def print_indent(depth: int) -> None:
     for _ in range(depth):
         print("|   ", end="")
 
-print ("coucou")
 def print_path(depth: int, path: str) -> tuple[int, int]:
     num_files = 0
     num_dirs = 0
@@ -24,7 +23,7 @@ def print_path(depth: int, path: str) -> tuple[int, int]:
             num_files += 1
     return num_files, num_dirs
 
-
+print ("coucou, comment ?")
 def print_tree(path: str) -> None:
     if os.path.exists(path):
         print(path)
