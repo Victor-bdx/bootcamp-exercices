@@ -3,4 +3,5 @@ def f(x,n):
     for i in range (n) :
         A += x
     return A
-    
+def g(x) :
+    return 2*x
