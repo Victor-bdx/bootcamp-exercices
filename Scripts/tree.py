@@ -6,7 +6,7 @@ def print_indent(depth: int) -> None:
     for _ in range(depth):
         print("|   ", end="")
 
-
+print ("coucou")
 def print_path(depth: int, path: str) -> tuple[int, int]:
     num_files = 0
     num_dirs = 0
